@@ -4,7 +4,7 @@
 
     try {
 
-      const data = await fetch("/db.json");
+      const data = await fetch("db.json");
       const res = await data.json();
 
       const bannerData = res.banner.map(item => `

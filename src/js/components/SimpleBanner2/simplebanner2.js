@@ -1,6 +1,6 @@
 const simplebanner2 = async () => {
   try {
-    let data = await fetch("/db.json");
+    let data = await fetch("db.json");
     let res = await data.json();
     let gallery = res.simplebanner2.map((item) => {
       return ` <div class="gallery-2-center-img">

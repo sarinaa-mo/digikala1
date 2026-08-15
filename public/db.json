@@ -8,7 +8,7 @@
   ],
   "menu": [
     {
-      "icon": "./src/images/menu/hamburger.svg",
+      "icon": "images/menu/hamburger.svg",
       "title": "دسته بندی کالا",
       "dropdown": [
         {
@@ -7918,22 +7918,22 @@
       "link": "index.html"
     },
     {
-      "icon": "./src/images/menu/percent.svg",
+      "icon": "images/menu/percent.svg",
       "title": "شگفت انگیزها",
       "link": "index.html"
     },
     {
-      "icon": "./src/images/menu/shoppingbasket.svg",
+      "icon": "images/menu/shoppingbasket.svg",
       "title": "سوپرمارکت",
       "link": "index.html"
     },
     {
-      "icon": "./src/images/menu/gold.svg",
+      "icon": "images/menu/gold.svg",
       "title": "طلا و نقره دیجیتال",
       "link": "index.html"
     },
     {
-      "icon": "./src/images/menu/fire.svg",
+      "icon": "images/menu/fire.svg",
       "title": "پرفروش ترین ها ",
       "link": "index.html"
     },
@@ -7950,7 +7950,7 @@
   ],
   "location": [
     {
-      "icon": "../src/images/menu/location.svg",
+      "icon": "images/menu/location.svg",
       "title": "",
       "address": "خ. انقلاب، ابتدای خ. شریعتی"
     }
@@ -8217,94 +8217,94 @@
   ],
   "listModal": [
     {
-      "icon": "../src/images/modallist/1.png",
+      "icon": "images/modallist/1.png",
       "text": "ارسال فوری خواربار",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/2.png",
+      "icon": "images/modallist/2.png",
       "text": "وام‌بانکی دیجی‌پی",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/3.png",
+      "icon": "images/modallist/3.png",
       "text": "استایل بهاری",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/3.png",
+      "icon": "images/modallist/3.png",
       "text": "انتخاب پاوربانک",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/4.png",
+      "icon": "images/modallist/4.png",
       "text": "تقویم 1405",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/5.png",
+      "icon": "images/modallist/5.png",
       "text": "نصب اپ",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/6.png",
+      "icon": "images/modallist/6.png",
       "text": "فروشنده شوید",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/7.png",
+      "icon": "images/modallist/7.png",
       "text": "پیشنهاد هفته",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/8.png",
+      "icon": "images/modallist/8.png",
       "text": "برق و شارژی",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/9.png",
+      "icon": "images/modallist/9.png",
       "text": "خریدحضوری ازدیجی‌کالا",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/10.png",
+      "icon": "images/modallist/10.png",
       "text": "سوپرمارکت",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/11.png",
+      "icon": "images/modallist/11.png",
       "text": "دیجی‌کلاب",
       "link": "#"
     }
   ],
   "groupServices": [
     {
-      "icon": "../src/images/modallist/2.png",
+      "icon": "images/modallist/2.png",
       "title": "طلا و نقره دیجیتال",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/3.png",
+      "icon": "images/modallist/3.png",
       "title": "بفرمایید جام!",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/8.png",
+      "icon": "images/modallist/8.png",
       "title": "اشتراک پلاس",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/7.png",
+      "icon": "images/modallist/7.png",
       "title": "وام بانکی",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/7.png",
+      "icon": "images/modallist/7.png",
       "title": "وام بانکی",
       "link": "#"
     },
     {
-      "icon": "../src/images/modallist/7.png",
+      "icon": "images/modallist/7.png",
       "title": "وام بانکی",
       "link": "#"
     }
@@ -8313,120 +8313,120 @@
     {
       "id": 10,
       "border": true,
-      "img": "../src/images/incredible/1.webp",
+      "img": "images/incredible/1.webp",
       "title": "کاندوم ناچ کدکس مدل 0.03 بسته 10 عددی",
       "discount": "۲۴٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۸,۹۹۰,۰۰۰",
       "oldPrice": "۱۱,۹۰۰,۰۰۰"
     },
     {
       "id": 20,
       "border": false,
-      "img": "../src/images/incredible/2.webp",
+      "img": "images/incredible/2.webp",
       "title": "ماساژور برقی ریمکس مدل RM-8787",
       "discount": "۴۵٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۶,۶۰۰,۰۰۰",
       "oldPrice": "۱۲,۰۰۰,۰۰۰"
     },
     {
       "id": 30,
       "border": false,
-      "img": "../src/images/incredible/3.webp",
+      "img": "images/incredible/3.webp",
       "title": "کنسول بازی سونی مدل PlayStation 5 Slim Digital",
       "discount": "۱۱٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۹۷,۹۹۹,۰۰۰",
       "oldPrice": "۱۱۰,۰۰۰,۰۰۰"
     },
     {
       "id": 40,
       "border": false,
-      "img": "../src/images/incredible/4.webp",
+      "img": "images/incredible/4.webp",
       "title": "ماشین لباسشویی ۹ کیلوگرم اتوماتیک دیپوینت",
       "discount": "۳۰٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۶۵,۵۰۰,۰۰۰",
       "oldPrice": "۹۳,۴۷۷,۱۰۰"
     },
     {
       "id": 50,
       "border": false,
-      "img": "../src/images/incredible/5.webp",
+      "img": "images/incredible/5.webp",
       "title": "گردنبند طلا ۱۸ عیار زنانه با زنجیر حلقه‌ای",
       "discount": "۱۴٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۱۴,۹۵۵,۵۵۰",
       "oldPrice": "۱۷,۳۴۱,۰۴۰"
     },
     {
       "id": 60,
       "border": false,
-      "img": "../src/images/incredible/6.webp",
+      "img": "images/incredible/6.webp",
       "title": "هواپز فیلیپس مدل NA230/00",
       "discount": "۱۳٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۱۴,۷۹۰,۰۰۰",
       "oldPrice": "۱۷,۰۰۰,۰۰۰"
     },
     {
       "id": 70,
       "border": false,
-      "img": "../src/images/incredible/7.webp",
+      "img": "images/incredible/7.webp",
       "title": "جارو رباتیک شیائومی مدل S40",
       "discount": "۷٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۳۱,۴۹۹,۰۰۰",
       "oldPrice": "۳۴,۰۰۰,۰۰۰"
     },
     {
       "id": 80,
       "border": false,
-      "img": "../src/images/incredible/8.webp",
+      "img": "images/incredible/8.webp",
       "title": "ماشین اصلاح موی صورت و بدن بانوان مدل T1",
       "discount": "۴۰٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۸۳۷,۰۰۰",
       "oldPrice": "۱,۳۹۵,۰۰۰"
     },
     {
       "id": 99,
       "border": false,
-      "img": "../src/images/incredible/9.webp",
+      "img": "images/incredible/9.webp",
       "title": "خمیر دندان سفیدکننده میسویک مدل X-13",
       "discount": "۳۴٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۲۷۷,۷۰۰",
       "oldPrice": "۴۲۱,۹۰۰"
     },
     {
       "id": 100,
       "border": false,
-      "img": "../src/images/incredible/10.webp",
+      "img": "images/incredible/10.webp",
       "title": "جارو رباتیک شیائومی مدل H40",
       "discount": "۴٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۴۳,۹۹۰,۰۰۰",
       "oldPrice": "۴۶,۰۰۰,۰۰۰"
     },
     {
       "id": 111,
       "border": false,
-      "img": "../src/images/incredible/11.webp",
+      "img": "images/incredible/11.webp",
       "title": "تونر پاک‌کننده صورت لورآل مدل مولتی اکتیو",
       "discount": "۴۰٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۱۷۵,۶۸۰",
       "oldPrice": "۲۹۲,۸۰۰"
     },
     {
       "id": 123,
       "border": false,
-      "img": "../src/images/incredible/12.webp",
+      "img": "images/incredible/12.webp",
       "title": "تبلت اپل مدل iPad 11 2025 Wi-Fi 128GB",
       "discount": "۳٪",
-      "icon": "../src/images/incredible/toman.svg",
+      "icon": "images/incredible/toman.svg",
       "newPrice": "۵۸,۹۹۹,۰۰۰",
       "oldPrice": "۶۱,۰۰۰,۰۰۰"
     }
@@ -8459,7 +8459,7 @@
       "titleImage": "https://www.digikala.com/statics/img/svg/amazing/fresh-incredible-offer.svg",
       "discountLabel": "تا 50% تخفیف",
       "moreItemsLabel": "بیش از 100 کالا",
-      "flashIcon": "./src/images/offer/flash.svg"
+      "flashIcon": "images/offer/flash.svg"
     },
     "items": [
       {

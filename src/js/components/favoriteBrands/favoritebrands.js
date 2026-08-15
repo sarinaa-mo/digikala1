@@ -2,7 +2,7 @@ import mountSwiper from "../../utils/swiper.js";
 
 const favoritebrands = async () => {
   try {
-    const data = await fetch("/db.json");
+    const data = await fetch("db.json");
     const res = await data.json();
 
     const slides = res.story2.map((item) => {

@@ -1,6 +1,6 @@
 const banner3 = async () => {
   try {
-    let data = await fetch("/db.json");
+    let data = await fetch("db.json");
     let res = await data.json();
     let image = res.images1.map((item) => {
       return `<div class="w-full">

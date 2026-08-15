@@ -44,7 +44,7 @@ const firstSlide = `
 
 const incridible = async () => {
   try {
-    const response = await fetch("/db.json");
+    const response = await fetch("db.json");
     const data = await response.json();
 
     const html = data.incredible

@@ -11,7 +11,7 @@ const productSections = async () => {
   if (!host) return;
 
   try {
-    const response = await fetch("/db.json");
+    const response = await fetch("db.json");
     const data = await response.json();
 
     // پرفروش‌ترین کالاها - با شماره‌ی رتبه

@@ -3,7 +3,7 @@ import moreIconImage from "../../../images/icons/more.svg";
 
 const category = async () => {
   try {
-    const response = await fetch("/db.json");
+    const response = await fetch("db.json");
     const data = await response.json();
 
     const items = data.Deeplink;

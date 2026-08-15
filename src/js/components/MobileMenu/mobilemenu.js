@@ -19,7 +19,7 @@ const mobileMenu = async () => {
   if (!root) return;
 
   try {
-    const response = await fetch("/db.json");
+    const response = await fetch("db.json");
     const data = await response.json();
 
     root.innerHTML = `

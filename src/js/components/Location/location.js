@@ -39,7 +39,7 @@ let selected = { ...TEHRAN, name: "تهران" };
 
 const loadLocation = async (container) => {
   try {
-    const response = await fetch("/db.json");
+    const response = await fetch("db.json");
     const data = await response.json();
 
     const saved = getAddress();
