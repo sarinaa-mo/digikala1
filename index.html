@@ -1,0 +1,224 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://static.neshan.org/sdk/mapboxgl/v1.13.2/neshan-sdk/v1.1.5/index.css"
+    />
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+
+    <!-- استایل حیاتی لودر: قبل از رسیدن CSS باندل هم باید دیده شود -->
+    <style>
+      .app-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: #fff;
+      }
+    </style>
+  </head>
+
+  <body dir="rtl" class="overflow-x-hidden pb-14 lg:pb-0">
+    <!-- #region loading -->
+    <div class="app-loader" id="app-loader">
+      <img src="./src/images/Logo/logo.svg" alt="دیجی‌کالا" />
+
+      <div class="app-loader-bar"><span></span></div>
+    </div>
+    <!-- #endregion loading -->
+
+    <!-- #region root -->
+    <div class="relative w-full">
+      <!-- #region Header -->
+      <header
+        class="header w-full bg-white shadow-md shadow-slate-400 sticky top-0 left-0 z-50"
+      >
+        <!-- بنر بالای هدر - فقط دسکتاپ -->
+        <div class="top-banner hidden lg:block w-full"></div>
+
+        <!--#Region HeaderSearchLogin-->
+        <div
+          class="searchlogin w-full max-w-[1700px] h-14 lg:h-17.5 flex mx-auto bg-[#f2f2f2] justify-between items-center px-2 lg:px-4"
+        ></div>
+        <!--#EndRegion HeaderSearchLogin-->
+
+        <!---#RegionMenu - مگامنو فقط از lg به بالا -->
+        <div
+          class="headermenu hidden lg:flex h-10 w-full items-center justify-between bg-[#f2f2f2] border-b border-[#c0c2c5] relative"
+        ></div>
+        <!---#EndRegionMenu-->
+      </header>
+      <!-- #endregion Header -->
+
+      <!-- #region story -->
+      <div class="story">
+        <div class="story-section">
+          <swiper-container class="myStory" dir="rtl" init="false">
+          </swiper-container>
+        </div>
+      </div>
+      <!-- #endregion story -->
+
+      <!--#region Slider-->
+      <div
+        class="slider parallax-slider w-full max-w-420 mx-auto bg-[#f2f3f5] lg:bg-transparent"
+      >
+        <swiper-container
+          class="mainslider"
+          style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+          init="false"
+        >
+        </swiper-container>
+      </div>
+      <!--#endregion Slider-->
+
+      <!--#RegionCategory-->
+      <div class="category dk-container mt-4">
+        <div
+          class="category-center flex flex-wrap w-full mx-auto justify-center gap-y-4"
+        ></div>
+      </div>
+      <!--#EndRegionCategory-->
+
+      <!--#region incredible-->
+      <div class="wrapper-inc dk-container rounded-2xl py-4">
+        <div
+          class="flex items-stretch gap-0 bg-red-500 rounded-2xl overflow-hidden"
+        >
+          <!-- کارت ثابت سمت راست -->
+          <div class="first-slide w-24 sm:w-32 lg:w-42.5 shrink-0"></div>
+
+          <!-- اسلایدر -->
+          <swiper-container
+            class="incredible flex-1 min-w-0"
+            navigation="true"
+            init="false"
+          >
+          </swiper-container>
+        </div>
+      </div>
+      <!--#endregion incredible-->
+
+      <!--#regionsimplebanner1-->
+      <div class="simplebanner1 dk-container h-auto flex justify-center mt-6">
+        <div
+          class="simplebanner1-center w-full grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5"
+        ></div>
+      </div>
+      <!--#endregion simplebanner1-->
+
+      <!--#region offer-->
+      <div class="dk-container my-5">
+        <div
+          class="offer w-full flex flex-col md:flex-row rounded-lg h-auto md:h-25 bg-[#e9ddddbb] justify-between md:justify-around items-center p-3 md:p-0 gap-4 md:gap-0"
+        >
+          <div class="offer-right hidden md:flex justify-start items-center min-w-0 shrink">
+            <img class="mx-2.5" src="./src/images/offer/fresh-z-basket.png" alt="" />
+            <img
+              class="mx-2.5"
+              src="./src/images/offer/fresh-incredible-offer-CFfENBxV.png"
+              alt=""
+            />
+            <span
+              class="font-vaziri text-white bg-green-600 px-2.5 py-1 rounded-xl"
+            >
+              تا 50% تخفیف
+            </span>
+          </div>
+
+          <div
+            class="offer-left flex justify-between md:justify-end items-center w-full md:w-auto min-w-0 gap-2"
+          >
+            <ul
+              class="offer-items flex justify-around md:justify-center items-center w-full md:w-auto min-w-0 overflow-hidden"
+            ></ul>
+
+            <div
+              class="h-8.5 md:h-11.25 bg-white flex justify-center items-center px-2 md:px-3 gap-1 md:gap-2 text-[11px] md:text-[15px] rounded-xl md:rounded-2xl text-[#58968b] font-bold shrink-0"
+            >
+              <span>بیش از ۱۰۰ کالا</span>
+              <img
+                class="relative bottom-0.5 md:bottom-1 w-2 md:w-auto"
+                src="./src/images/offer/offer.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#endregion offer-->
+
+      <!--#region Simplebanner2-->
+      <div class="gallery-2 dk-container h-auto flex justify-center mt-6">
+        <div
+          class="gallery-2-center w-full grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-2.5"
+        ></div>
+      </div>
+      <!--#endregion Simplebanner2-->
+
+      <!--#region classification-->
+      <div class="wrapper1 dk-container">
+        <swiper-container class="mySwiper" init="false"> </swiper-container>
+      </div>
+      <!--#endregion classification-->
+
+      <!--#region banner3-->
+      <div class="shopping-1 dk-container flex justify-center items-center mt-2">
+        <div
+          class="shopping-1-center w-full grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 md:gap-4"
+        ></div>
+      </div>
+      <!--#endregion banner3-->
+
+      <!--#region favorite brands-->
+      <div class="dk-container mt-5 flex justify-center items-center">
+        <div class="w-full border border-[#e0e0e2] box-border rounded-2xl p-3 md:p-4">
+          <!-- top -->
+          <div class="w-full flex justify-start items-center mb-3">
+            <img
+              src="./src/images/favoriteBrands/star.svg"
+              alt="star"
+              class="w-5 h-5 md:w-5.5 md:h-5.5"
+            />
+            <p class="text-base md:text-[21px] font-vaziri text-[#0c0c0c] mr-1.25">
+              محبوب‌ترین برندها
+            </p>
+          </div>
+
+          <!-- bottom -->
+          <div class="w-full">
+            <swiper-container class="mymost-popular-brands" init="false">
+            </swiper-container>
+          </div>
+        </div>
+      </div>
+      <!--#endregion favorite brands-->
+
+      <!--#region product sections - توسط productsections.js پر می‌شود
+           پرفروش‌ترین کالاها، داغ‌ترین‌ها و ردیف‌های دسته‌بندی -->
+      <div class="product-sections"></div>
+      <!--#endregion product sections-->
+
+      <!--#region footer - توسط footer.js پر می‌شود -->
+      <footer class="site-footer"></footer>
+      <!--#endregion footer-->
+    </div>
+    <!-- #Endregion root -->
+
+    <!-- #region mobile navigation - توسط mobilemenu.js پر می‌شود -->
+    <div class="mobile-menu-root lg:hidden"></div>
+    <!-- #endregion mobile navigation -->
+
+    <script src="https://static.neshan.org/sdk/mapboxgl/v1.13.2/neshan-sdk/v1.1.5/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>

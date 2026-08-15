@@ -1,0 +1,71 @@
+swiper-container {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+swiper-slide {
+  box-sizing: border-box;
+}
+
+.mainslider {
+  background: transparent;
+}
+
+/*================ فلش‌های ناوبری ================
+  پیش‌فرض Swiper یک شِوران آبی بزرگ است؛ اینجا به دکمه‌ی
+  دایره‌ای سفید با سایه تبدیل می‌شود - مثل دیجی‌کالا.
+*/
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  background: #fff;
+  color: #62666d;
+
+  box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+
+  transition: color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+/* اندازه‌ی خود آیکون شِوران */
+swiper-container::part(button-prev)::after,
+swiper-container::part(button-next)::after {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+swiper-container::part(button-prev):hover,
+swiper-container::part(button-next):hover {
+  color: #ef4056;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+}
+
+/* حالت غیرفعال داخل shadow DOM است و part جدا ندارد،
+   پس در utils/swiper.js با injectStyles استایل می‌شود. */
+
+/* اسلایدر اصلی روی عکس است، پس کمی بزرگ‌تر و پررنگ‌تر */
+.mainslider::part(button-prev),
+.mainslider::part(button-next) {
+  width: 40px;
+  height: 40px;
+  background: rgb(255 255 255 / 85%);
+}
+
+/*================ نقطه‌های صفحه‌بندی ================*/
+
+swiper-container::part(bullet-active) {
+  background: #ef4056;
+}
+
+/*================ موبایل: فلش‌ها مزاحم‌اند ================*/
+
+@media (max-width: 767px) {
+  swiper-container::part(button-prev),
+  swiper-container::part(button-next) {
+    display: none;
+  }
+}

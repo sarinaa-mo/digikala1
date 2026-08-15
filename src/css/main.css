@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import 'animate.css';
+
+
+@import "./loading.css";
+@import "./slider.css";
+@import "./story.css";
+
+
+@font-face {
+    font-family: "vaziri";
+     src: url("../fonts/Vazir.ttf") format("truetype");
+
+}
+
+@theme{
+
+    --font-vaziri:"Vaziri";
+}
+
+@font-face{
+    font-family: "vaziriNumber";
+    src: url("../fonts/Vazir-Bold-FD-WOL.ttf") format("truetype");
+}
+@theme{
+
+    --font-vaziriNumber:"vaziriNumber";
+}
+@layer base {
+    * {
+        font-family: var(--font-vaziri);
+    }
+
+    /* هیچ چیزی نباید اسکرول افقی بسازد */
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+/* کانتینر مشترک همه‌ی سکشن‌ها */
+.dk-container {
+    width: 100%;
+    max-width: 1224px;
+    margin-inline: auto;
+    padding-inline: 12px;
+}
+
+@media (min-width: 1024px) {
+    .dk-container {
+        padding-inline: 16px;
+    }
+}
