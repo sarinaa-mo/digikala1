@@ -32,8 +32,6 @@ jobs:
         env:
           VITE_NESHAN_MAP_KEY: ${{ secrets.NESHAN_MAP_KEY }}
 
-      # Pages باید یک‌بار دستی روی حالت GitHub Actions تنظیم شود:
-      # Settings -> Pages -> Build and deployment -> Source: GitHub Actions
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
