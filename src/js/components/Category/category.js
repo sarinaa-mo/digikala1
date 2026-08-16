@@ -8,19 +8,21 @@ const category = async () => {
 
     const items = data.Deeplink;
 
-    const html = items.map((item) => {
+    const html = items.map((item,index) => {
+        const visibilityClass = index < 4 ? "hidden sm:flex" : "flex";
      return `
 <div
     class="
         category-center-item
         w-1/3
-        sm:w-1/4
+        sm:w-1/3
         md:w-1/5
         lg:w-[10%]
         h-full
         flex
         flex-col
         items-center
+        ${visibilityClass}
     "
 >
 
@@ -40,9 +42,11 @@ const category = async () => {
             w-[60%]
             mt-2.5
             text-center
-            text-[12px]
+            text-[11px]
             leading-5
             font-family: 'vaziri';
+            line-clamp-2
+            text-[#3f4064]
         "
     >
         ${item.title}
@@ -53,10 +57,11 @@ const category = async () => {
     });
     html.push(`
 <div
+    
     class="
         more-service
-        w-1/3  
-        sm:w-1/4
+        w-1/3
+        sm:w-1/3
         md:w-1/5
         lg:w-[10%]
         h-full
@@ -64,8 +69,6 @@ const category = async () => {
         flex-col
         items-center
         cursor-pointer
-        bg-white
-        
     "
 >
 
@@ -75,7 +78,7 @@ const category = async () => {
         h-13
         mt-5
         rounded-full
-        bg-white
+        bg-[#f2f3f5]
         flex
         justify-center
         items-center
@@ -92,11 +95,12 @@ const category = async () => {
     <p
         class="
         w-[60%]
-        mt-2.5
+        mt-3
         text-center
         text-[12px]
         leading-5
         font-family: 'vaziri';
+        text-[#3f4064]
         "
     >
         بیشتر

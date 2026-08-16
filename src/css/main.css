@@ -38,6 +38,12 @@
         overflow-x: hidden;
         overscroll-behavior-x: none;
     }
+    
+    /* سایت فقط برای حالت روشن طراحی شده؛ از دارک‌مود خودکار مرورگر
+       (که رنگ‌ها را حدسی و اشتباه معکوس می‌کند) جلوگیری می‌کند */
+    :root {
+        color-scheme: light;
+    }
 
     img {
         max-width: 100%;

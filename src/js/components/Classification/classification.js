@@ -53,7 +53,7 @@ const classification = async () => {
     mountSwiper(container, {
       slidesPerView: 3,
       spaceBetween: 8,
-      pagination: { clickable: true },
+      pagination: false,
       grid: { rows: 2, fill: "row" },
       breakpoints: {
         480: { slidesPerView: 4, grid: { rows: 2, fill: "row" } },
