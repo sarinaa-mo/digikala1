@@ -74,7 +74,7 @@ const category = async () => {
         h-13
         mt-5
         rounded-full
-        bg-[#f2f3f5]
+        bg-white
         flex
         justify-center
         items-center
