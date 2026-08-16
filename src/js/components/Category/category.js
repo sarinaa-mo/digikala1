@@ -55,7 +55,7 @@ const category = async () => {
 <div
     class="
         more-service
-        w-1/3
+        w-1/3  
         sm:w-1/4
         md:w-1/5
         lg:w-[10%]
@@ -64,8 +64,8 @@ const category = async () => {
         flex-col
         items-center
         cursor-pointer
-        bg-[#f0f0f1]
-        rounded-lg
+        bg-white
+        
     "
 >
 
@@ -75,7 +75,7 @@ const category = async () => {
         h-13
         mt-5
         rounded-full
-        bg-[#f2f3f5]
+        bg-white
         flex
         justify-center
         items-center
