@@ -154,8 +154,8 @@ function createLocationModal() {
               : `<div class="map-placeholder absolute inset-0 flex flex-col items-center justify-center gap-2 text-center px-6">
                    <img src="${locationIcon}" alt="" class="w-10 h-10 opacity-40" />
                    <p class="text-[12px] text-[#62666d] leading-6">
-                     برای نمایش نقشه، کلید API نشان لازم است.<br />
-                     یک فایل <span class="font-vaziriNumber">.env</span> بساز و در آن بگذار:
+                            .<br />
+                       <span class="font-vaziriNumber"></span>     
                    </p>
                    <code class="text-[11px] bg-white rounded px-2 py-1 text-[#ef4056]">VITE_NESHAN_MAP_KEY=...</code>
                  </div>`
