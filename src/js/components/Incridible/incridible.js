@@ -23,7 +23,7 @@ const firstSlide = `
 
         :
 
-        <div class="hour font-vaziriNumber bg-white w-5 h-5 sm:w-6 sm:h-6 rounded-sm text-black text-center leading-5 sm:leading-6">
+        <div class="hour font-vaziriNumber bg-white w-5 h-5 sm:w-6 sm:h-6 rounded-sm  text-black text-center leading-5 sm:leading-6">
             00
         </div>
 
@@ -98,7 +98,7 @@ const incridible = async () => {
 
     <a href="#" class="flex flex-col items-center gap-2 sm:gap-4">
 
-      <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-none flex justify-center items-center">
+      <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-[#3f4064] flex justify-center items-center">
         <img src="${leftWhite}" class="w-5 sm:w-6">
       </div>
 

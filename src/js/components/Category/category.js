@@ -64,7 +64,8 @@ const category = async () => {
         flex-col
         items-center
         cursor-pointer
-        bg-white
+        bg-[#f0f0f1]
+        rounded-lg
     "
 >
 
@@ -74,7 +75,7 @@ const category = async () => {
         h-13
         mt-5
         rounded-full
-        bg-white
+        bg-[#f2f3f5]
         flex
         justify-center
         items-center
