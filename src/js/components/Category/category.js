@@ -64,7 +64,7 @@ const category = async () => {
         flex-col
         items-center
         cursor-pointer
-        bg-[#f0f0f1]
+        bg-white
     "
 >
 
