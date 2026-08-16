@@ -46,13 +46,14 @@ const incridible = async () => {
   try {
     const response = await fetch("db.json");
     const data = await response.json();
-
+   
     const html = data.incredible
-      .map((item) => {
+      .map((item, index) => {
+        const roundedClass = index === 0 ? "rounded-tr-2xl rounded-br-2xl" : "";
         return `
 <swiper-slide class="h-auto py-4">
 
-  <div class="bg-white h-full flex flex-col p-2">
+  <div class="bg-white h-full flex flex-col p-2 ${roundedClass}">
 
     <img
       src="${item.img}"
@@ -97,11 +98,11 @@ const incridible = async () => {
 
     <a href="#" class="flex flex-col items-center gap-2 sm:gap-4">
 
-      <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-cyan-500 flex justify-center items-center">
+      <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-none flex justify-center items-center">
         <img src="${leftWhite}" class="w-5 sm:w-6">
       </div>
 
-      <span class="text-[11px] sm:text-sm text-black font-vaziri whitespace-nowrap">
+      <span class="text-[11px] sm:text-sm text-[#3f4064] font-vaziri whitespace-nowrap">
         مشاهده همه
       </span>
 

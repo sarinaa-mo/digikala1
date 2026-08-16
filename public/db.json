@@ -8079,9 +8079,9 @@
   "slider": [
     {
       "id": 2,
-      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/e8e9f83288652b094b91f1b67f41d041d52ed5f9_1782883370.jpg?x-oss-process=image/quality,q_95",
-      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/e8e9f83288652b094b91f1b67f41d041d52ed5f9_1781688184.jpg?x-oss-process=image/quality,q_95/format,webp",
-      "title": "پارتنرشیپ-دوو",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/db1e7ea999f56853ebd6367d60817464f0b7a275_1786788611.jpg?x-oss-process=image/quality,q_80/format,webp",
+      "webp_image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/db1e7ea999f56853ebd6367d60817464f0b7a275_1786788611.jpg?x-oss-process=image/quality,q_80/format,webp",
+      "title": "فروش سیم کارت",
       "is_ad": false,
       "url": "https://www.digikala.com/landing/daewoofriendship/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%AF%D9%88%D9%88&promo_position=home_slider_new_v2&promo_creative=209542&bCode=209577",
       "description": ""
@@ -8624,6 +8624,11 @@
       "id": 2,
       "title": "پارتنرشیپ-نوآکسا",
       "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/0f13e94b35ed94ba636d8785746a07b32184625e_1784112580.jpg?x-oss-process=image/quality,q_95"
+    },
+     {
+      "id": 2,
+      "title": "پارتنرشیپ-کوک+فکتوری",
+      "image": "https://dkstatics-public.digikala.com/digikala-adservice-banners/0e7f903b0848694e6b6b7641b1ad731eb027837a_1786797271.jpg?x-oss-process=image/quality,q_95"
     }
   ],
   "wonderfull": [
