@@ -37,7 +37,7 @@ const offer = async () => {
               src="${item.image}"
               alt=""
             />
-            <p class="relative -top-2.5 md:-top-5 lg:-top-6.25 float-right bg-rose-700 text-[8px] md:text-[11px] flex items-center text-white rounded-[15px] py-0.5 px-1 md:py-1 md:px-1.5 box-border font-vaziriNumber">
+            <p class="relative -top-3.5 md:-top-5 lg:-top-6.25 float-right bg-rose-700 text-[8px] md:text-[11px] flex items-center text-white rounded-[15px] py-0.5 px-1 md:py-1 md:px-1.5 box-border font-vaziriNumber">
               ${item.discount}%
             </p>
           </a>
